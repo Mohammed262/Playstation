@@ -1,0 +1,308 @@
+body{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.f1 button{
+    border-radius: 50px;
+}
+
+i{
+    width: 80px;
+    height: 80px;
+}
+.size1{
+    background-color: rgb(235, 252, 6) !important;
+    color: black !important;
+}
+
+
+@media (min-width:503px) and (max-width:768px){
+
+    .buttonsofcarousel button{
+
+        width: 30%;
+        height: 30%;
+        font-size: 12px;
+    }
+
+}
+
+
+@media (min-width:291px) and (max-width:502px){
+
+    .buttonsofcarousel button{
+
+       width:fit-content;
+ 
+        font-size: 12px;
+    }
+ 
+}
+
+
+@media (max-width:290px){
+
+    .buttonsofcarousel button{
+        font-size: 8px;
+        font-weight: 500 ;
+    }
+ 
+}
+
+@media (max-width:768px){    
+    .imagesFeatures{    
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.upper-bar{
+    background-color:#08526d;
+    color:white;
+    padding:10px;
+
+    }
+
+    .overview{
+
+    padding:100px;
+    background-color:#f0f5f7;
+    }
+
+    .imagesFeatures{
+
+    width:200px;
+    height:150px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border:4px solid black;
+    }
+
+.anotherGreatGames,.newGames,.HardwareDiscs,.SeeMoreProducts,.OurSponsorshipCompanies{
+    margin-top: 20px;
+}
+
+.featpadding{
+    padding-top:40px ;
+  
+}
+
+.card{
+
+    align-items: center;
+}
+
+.carrdpadding{
+
+    padding-top:40px ; 
+}
+
+.suitableSize{
+    height: 40px;
+}
+
+.suitableSize i{
+    height: 90%;
+    width: 20px;
+}
+
+.playservices{
+    margin-left: 180px;
+}
+
+@media (max-width:567px){
+    
+.playservices{
+    margin-left: 190px;
+}
+    
+.playservices2{
+    margin-left: 90px;
+}
+}
+
+@media (min-width:567px) and (max-width:991px){
+
+    .playservices{
+        margin-left: 355px;
+    }  
+    
+    .playservices2{
+        margin-left: 270px;
+    }
+    }
+
+div.bordcard{
+    border: 3px solid black;
+}
+
+/*
+these codes here for RIPPLE BUTTON HOVER EFFECT
+*/
+body{
+    font-family: "Poppins",sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn span{
+
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: rgb(235, 252, 6);
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    transition: width 0.6s ease 0s, height 0.6s ease 0s;
+    z-index: -1;
+}
+
+.btn:hover{
+    color: black !important;
+}
+a:hover{
+    color: black !important;
+}
+
+.btn:hover span{
+
+    width: 562px;
+    height: 562px;
+}
+
+.carousebtn1 span{
+
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: #ff0a54;
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    transition: width 0.6s ease 0s, height 0.6s ease 0s;
+    z-index: -1;
+}
+
+/*00000000000000000000*/
+
+
+/*card css organise*/
+
+.container.organisecards{
+
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*padding: 40px 30px;*/
+.card{
+    width: 250px;
+    height: 370px;
+    margin: 17px;
+    
+    background-color: #08526d;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+    border-radius: 40px;
+}
+
+.card .card_icon{
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card .card_icon img{
+
+    align-items: center;
+    width: 249px;
+    height: 160px;
+}
+
+.card h3{
+    margin-bottom: 10px;
+    color:black;
+    font-size: 16px;
+    font-weight: 640;
+    letter-spacing: 0.5px;
+}
+
+.card.selected{
+
+    background-color: #161619;
+    box-shadow: 15px 15px 15px rgb(0,0,0,0.3);
+    color: white;
+}
+.card.selected a{
+
+    color: white;
+    border: 1px solid white;
+}
+
+.card.selected h3{
+    color: white;
+}
+
+
+
+/*footer make everything correct yyyyyyyyyyyyyyyyyyyyyyyyyyyyy*/
+footer .container-fluid .row .col-md-4 h5,
+footer .container-fluid .row .col-md-4 hr
+,footer .container-fluid .row .col-md-4 p,
+.lastWordInWebsite{
+    text-align: center !important;
+    align-items: center !important;
+    margin-right: 40px !important; 
+ 
+    
+}
+
+@media (max-width:348px){
+    .card{
+        height: 270px;
+        width: 200px !important;
+        font-size: 12px;
+    }
+
+    .card .card_icon img{
+        height: 100px;
+        margin-right: 33px !important;
+    }
+    .card-body h3,.card-body p,.card-body a{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    
+
+}
+
+/*0000000000000000000000000000000000000000000000000000000000000*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
